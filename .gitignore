@@ -7,13 +7,5 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
-
-# Class Files #
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
 # Local Files #
 subidos/
