@@ -17,3 +17,10 @@ nb-configuration.xml
 *.ear
 # Local Files #
 subidos/
+#Windows Files#
+Thumbs.db
+*.exec
+environments.bin
+*.orig
+#Mac Files#
+*.DS_Store

@@ -1,7 +1,7 @@
 <?php
-define('USUARIO_DB', 'lugutori');
-define('USUARIO_PASS', '123245');
-define('HOST_DB', '192.168.1.2');
+define('USUARIO_DB', '<usuario>');
+define('USUARIO_PASS', '<password>');
+define('HOST_DB', '<host_db>');
 define('NOMBRE_DB', 'miBD');
 
 
