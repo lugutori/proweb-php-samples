@@ -11,7 +11,7 @@
     else{
         echo "Error insertando a Peter Griffin";
     }
-    $sql = "INSERT INTO Personas (Nombre, Apellido, Edad) VALUES ('Glenn', 'Quagmire',43)"
+    $sql = "INSERT INTO Personas (Nombre, Apellido, Edad) VALUES ('Glenn', 'Quagmire',43)";
     if(mysqli_query($con,$sql)){
         echo "Se ha insertado a Glenn Quagmire";
     }
