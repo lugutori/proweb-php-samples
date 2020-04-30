@@ -15,6 +15,6 @@
         if (!file_exists('subidos/')) {
            mkdir('subidos/',0777,true);
         }
-        move_uploaded_file($_FILES["arch"]["tmp_name"],"subidos\\".$_FILES["arch"]["name"]);
+        move_uploaded_file($_FILES["arch"]["tmp_name"],"subidos/".$_FILES["arch"]["name"]);
         echo "Guardado en: " . "subidos/" . $_FILES["arch"]["name"];
 ?>
